@@ -13,6 +13,22 @@ MarketMind AI is a production-grade, AI-powered financial intelligence and stock
 
 ---
 
+## 🌐 Live Deployment Links
+* **Frontend Web Application (Vercel):** [https://marketmind-a64bzn6je-podugu-mukeshs-projects.vercel.app](https://marketmind-a64bzn6je-podugu-mukeshs-projects.vercel.app)
+* **Backend REST API (Render):** [https://marketmind-ai-vbot.onrender.com](https://marketmind-ai-vbot.onrender.com)
+
+---
+
+## 🔑 Admin Credentials & Registration
+The platform supports role-based access control (RBAC). Admin credentials are dynamically assigned:
+* **Admin Privilege Escalation**: To register an administrator account, simply sign up with **any username containing `"admin"`** (e.g., `admin_mukesh`, `admin`, `mukesh_admin`).
+* **Example Admin Account**:
+  * **Username**: `admin_mukesh` (or any username containing `admin`)
+  * **Password**: *Chosen by you during registration* (e.g. `mukesh123` or your preferred password)
+* **Note**: If the database is completely empty/reset, the very first user who registers on the signup page (regardless of their username) is automatically granted full **Admin** privileges.
+
+---
+
 ## 🏛️ Platform Architecture & Folder Structure
 
 MarketMind AI leverages a decoupled three-tier architecture:

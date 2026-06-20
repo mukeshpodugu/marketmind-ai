@@ -1,0 +1,35 @@
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+ENV/
+env/
+
+# Databases & local logs
+backend/marketmind.db
+backend/marketmind.db-journal
+*.log
+
+# Frontend dependencies & builds
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+.eslintcache
+
+# Environments & secrets
+.env
+.env.*
+!.env.example
+
+# IDE configurations
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp

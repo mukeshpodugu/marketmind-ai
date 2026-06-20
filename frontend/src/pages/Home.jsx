@@ -1,8 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import { TrendingUp, BrainCircuit, ShieldCheck, Cpu, ArrowRight, Github } from 'lucide-react';
-import { settings } from '../../../backend/app/config'; // We will hardcode or fetch dynamically. Let's hardcode developer details to be safe.
+import { TrendingUp, BrainCircuit, ShieldCheck, Cpu, ArrowRight } from 'lucide-react';
+
 
 export default function Home() {
   const navigate = useNavigate();
